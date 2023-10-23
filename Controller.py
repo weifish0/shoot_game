@@ -35,9 +35,6 @@ def bullet_move(bullet: Bullet) -> bool:
     return check
 
 
-"""
-Homework
-"""
 def in_border_check(rect: pg.Rect, movement: Tuple) -> bool:
 
     """
