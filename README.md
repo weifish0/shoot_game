@@ -10,5 +10,8 @@ pip install -r requirements.txt
 
 加油吧，勇士，執行`game.py`即可開始挑戰~
 
-# 遊玩圖片
-![載入中](./image/sample.png "This is a sample image.")
+## DEMO
+![遊玩圖片](./static/shoot_game_demo.gif "This is a demo.")
+
+## Dependencies
+- pygame V2.1.2

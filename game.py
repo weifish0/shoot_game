@@ -34,7 +34,7 @@ def show_life_status(life: int, screen: pg.Surface):
     padding = 10
 
     for i in range(life):
-        life_surface = image_resize(pg.image.load("player.png").convert(), 0.05)
+        life_surface = image_resize(pg.image.load("./static/player.png").convert(), 0.05)
         screen.blit(life_surface, (SCREEN_WIDTH - (padding + life_surface.get_width()) * (i+1), 0))
 
 
@@ -53,7 +53,7 @@ Initialize & Global Variables
 """
 pg.init()
 pg.display.set_caption("Space Invaders")
-pg.display.set_icon(pg.image.load("enemy.png"))
+pg.display.set_icon(pg.image.load("./static/enemy.png"))
 
 screen = pg.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 clock = pg.time.Clock()
